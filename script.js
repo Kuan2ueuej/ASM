@@ -7,9 +7,9 @@ const password = document.getElementById('password').value;
 localStorage.setItem('username',username);
 localStorage.setItem('password',password);
 
-if( username === 'Quocan' && password === 'quynhnhu'){
+if( username === 'Bay' && password === '123'){
     alert('Login successful!');
 } else {
-    alert('NGU VAY');
+    alert('Invalid username or password. Please try again.');
 }
 })
